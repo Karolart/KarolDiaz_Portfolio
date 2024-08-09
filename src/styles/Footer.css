@@ -1,0 +1,34 @@
+/* src/styles/Footer.css */
+
+.footer {
+  background-color: #011336; /* Background color for the footer */
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: url('../components/assets/images/geralBackGround.svg'); /* Replace with your background image path */
+  background-size: cover; /* Ensure the image covers the whole footer */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+}
+
+.footer div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px; /* Adjust the font size if needed */
+  color: #1e0027; /* Text color */
+}
+
+.footer img {
+  margin-left: 10px; /* Space between the text and the image */
+  width: 20px; /* Adjust the width of the image */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 2px; /* Optional: Rounded corners for the image */
+  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+}
+
+.video-container {
+  margin-top: 10px; /* Space between the image and the video */
+}

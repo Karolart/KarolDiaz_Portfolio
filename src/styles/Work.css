@@ -1,0 +1,112 @@
+.section {
+  padding: 20px;
+  background-color: rgba(243, 164, 207, 0.493); /* Soft pink background color with transparency */
+  border-radius: 8px; /* Optional: Rounded corners for the section */
+}
+
+.panel {
+  background-color: #2b023363; /* Light background color for the panel */
+  padding: 20px; /* Padding inside the panel */
+  border-radius: 8px; /* Rounded corners for the panel */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect for the panel */
+  margin-bottom: 20px; /* Space below the panel */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.panel:hover {
+  transform: scale(1.05); /* Slightly scale up the panel */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.work-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.videogames {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.video-section {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.video-panel, .description-panel {
+  flex: 1;
+  border: #0bff20;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: #0bff20;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.video-panel:hover, .description-panel:hover {
+  transform: scale(1.05); /* Slightly scale up the panel */
+  box-shadow: 0 8px 16px rgb(2, 255, 15); /* Enhance shadow on hover */
+}
+
+.video-panel video {
+  width: 100%;
+  height: auto;
+}
+
+.description-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description-panel h3 {
+  margin: 0 0 10px 0;
+}
+
+.description-panel p {
+  margin: 0;
+}
+
+.videogame-thumbnails {
+  display: grid; /* Use grid for a symmetrical layout */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid columns */
+  gap: 20px; /* Space between items */
+}
+
+.videogame-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #0bff20;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(22, 255, 1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.videogame-item:hover {
+  transform: scale(1.05); /* Slightly scale up the panel */
+  box-shadow: 0 8px 12px rgb(62, 255, 4); /* Enhance shadow on hover */
+}
+
+.videogame-item img {
+  width: 80%; /* Ensure image scales with the container */
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.videogame-description {
+  text-align: center;
+}
+
+.videogame-description h4 {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.videogame-description p {
+  margin: 5px 0 0;
+  font-size: 0.7em;
+}

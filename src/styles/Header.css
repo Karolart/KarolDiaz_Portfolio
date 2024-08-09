@@ -1,0 +1,36 @@
+.header {
+  background-color: #2a8ec9; /* Background color of the header */
+  background-image: url('../components/assets/images/bannerCv.gif'); /* Path to your background image */
+  background-size: cover; /* Cover the entire header area */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  padding: 0; /* Remove padding for the header */
+  margin: 0; /* Remove margin */
+  box-shadow: 0 4px 8px rgb(12, 255, 12); /* Optional shadow effect */
+  width: 100%; /* Ensure the header spans full width */
+  height: 250px; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align items to the bottom */
+}
+
+.main-navbar {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  padding: 10px 0; /* Padding for the navbar */
+  width: 100%; /* Ensure the navbar takes full width */
+  display: flex;
+  justify-content: center; /* Center the navigation links */
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+
+.main-navbar a {
+  margin: 0 15px; /* Margin between links */
+  text-decoration: none;
+  color: #fff; /* White text color for better visibility on black background */
+  font-size: 1.2em; /* Adjust font size as needed */
+  transition: color 0.3s ease;
+}
+
+.main-navbar a:hover {
+  color: rgb(12, 255, 12); /* Adjust the hover color as needed */
+}

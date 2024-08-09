@@ -1,0 +1,49 @@
+.illustration-section {
+  padding: 20px;
+}
+
+.illustration-panel {
+  background-color: #f1c0c083; /* Light background color for the panel */
+  padding: 20px; /* Padding inside the panel */
+  border-radius: 8px; /* Rounded corners for the panel */
+  box-shadow: 0 4px 8px rgba(54, 248, 5, 0.966);
+}
+
+.illustration-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  gap: 20px; /* Space between images */
+  width: 100%;
+  max-width: 800px; /* Adjusted max width for the wrapper */
+}
+
+.image-wrapper img {
+  width: 70%; /* Adjust width percentage for desired size */
+  height: auto;
+  max-width: 400px; /* Corrected maximum width */
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(54, 248, 5, 0.966);
+}
+
+.illustration-content p {
+  text-align: center;
+  max-width: 800px;
+}
+
+.illustration-content a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.illustration-content a:hover {
+  text-decoration: underline;
+}

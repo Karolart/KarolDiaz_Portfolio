@@ -1,0 +1,42 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000000;
+  color: #013350;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  background-color: #15ff00;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .banner img {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.navbar {
+  margin-top: 20px;
+}
+
+.navbar a {
+  color: #52ff02;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  background-color: #43fd1d;
+  transition: 0.3s;
+}
+
+/* Add other global styles as needed */

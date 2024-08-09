@@ -1,0 +1,30 @@
+/* src/styles/Contact.css */
+.section {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(12, 255, 12); /* Optional: shadow effect */
+
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap; /* Ensure icons wrap on smaller screens */
+    margin-top: 20px;
+  }
+  
+  .contact-icons a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-icons a:hover {
+    transform: scale(1.2); /* Enlarge icon on hover */
+  }
+  
+  .contact-icons img {
+    width: 80px; /* Adjust size as needed */
+    height: 80px;
+  }
+  

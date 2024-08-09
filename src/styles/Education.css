@@ -1,0 +1,36 @@
+.section {
+    padding: 20px;
+  }
+  
+  .education-panel {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally if desired */
+  }
+  
+  .education-content {
+    display: flex;
+    justify-content: space-between; /* Ensure space between text and image */
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Reduced space between text and image */
+    background-color: #00000013; /* Background color for the panel */
+    padding: 20px; /* Padding inside the panel */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(118, 255, 55, 0.966); /* Shadow effect */
+  }
+  
+  .education-text {
+    flex: 2; /* Allocate more space to text */
+    margin-right: 20px; /* Margin to separate from the image */
+  }
+  
+  .education-image {
+    flex: 1; /* Image takes up available space */
+  }
+  
+  .education-image img {
+    max-width: 100%; /* Adjust to fit within the container */
+    height: auto;
+    display: block; /* Ensure the image does not overflow */
+  }
+  
