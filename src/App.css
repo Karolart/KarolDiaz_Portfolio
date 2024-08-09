@@ -38,7 +38,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgba(216, 104, 104, 0.514); /* Change this if needed */
+  color: rgb(4, 255, 16); /* Change this if needed */
 }
 
 .App-link {

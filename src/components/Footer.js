@@ -20,7 +20,7 @@ function Footer() {
         <img src={co} alt="co" onClick={toggleVideo} />
         {showVideo && (
           <div className="video-container">
-            <p><p>Thank you so much for visiting my portfolio. I’m sharing one of my favorite Colombian songs with you as a small gift to show my appreciation.</p>
+            <p><p>Thank you so much for visiting my portfolio. I’m sharing a beautiful Colombian song with you as a small gift to show my appreciation.</p>
             .</p>
             <video width="320" height="240" controls>
               <source src={sampleVideo} type="video/mp4" />

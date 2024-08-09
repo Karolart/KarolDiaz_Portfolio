@@ -3,6 +3,7 @@ import '../styles/About.css';
 import profileImage from './assets/images/Portfolio_Profilepic.png'; // Adjust the import path
 import clickSound from './assets/sounds/tap.mp3'; // Import your click sound for the link
 import profileClickSound from './assets/sounds/welcome.m4a'; // Import your click sound for the profile picture
+import soundIcon from './assets/images/resume.png'; // Import your sound icon image
 
 function About() {
   const linkAudioRef = useRef(null);
@@ -23,11 +24,19 @@ function About() {
   return (
     <section id="about" className="section">
       <div className="about-content">
-        <img 
-          src={profileImage} 
-          alt="Karol Díaz" 
-          onClick={playProfileSound} // Add the onClick event to the image
-        />
+        <div className="profile-container">
+          <img 
+            src={profileImage} 
+            alt="Karol Díaz" 
+            onClick={playProfileSound} // Add the onClick event to the image
+          />
+          <img 
+            src={soundIcon} 
+            alt="Sound Icon" 
+            className="sound-icon" 
+            onClick={playProfileSound} // Add the onClick event to the sound icon
+          />
+        </div>
         <div className="about-text">
           <h3>
             <a

@@ -18,6 +18,10 @@
   margin: 0 auto; /* Center the panel */
 }
 
+.profile-container {
+  position: relative; /* For positioning the sound icon relative to the image */
+}
+
 .about-content img {
   width: 400px; /* Adjust size as needed */
   height: 400px; /* Adjust size as needed */
@@ -29,6 +33,25 @@
 
 .about-content img:hover {
   transform: scale(1.1); /* Enlarge image on hover */
+}
+
+.sound-icon {
+  position: absolute;
+  bottom: 10px; /* Adjust the position as needed */
+  right: 10px; /* Adjust the position as needed */
+  width: 24px; /* Adjust size as needed */
+  height: 24px;
+  opacity: 0.9; /* Slight transparency */
+  display: none; /* Hide by default */
+}
+
+.profile-container:hover .sound-icon {
+  display: block; /* Show icon when hovering over the profile container */
+}
+
+.sound-icon img {
+  width: 100%;
+  height: auto;
 }
 
 .about-text {
