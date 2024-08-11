@@ -3,8 +3,7 @@
 
 /* Apply the retro font and pink background color */
 body {
-  background-color: #f3a4cf00; /* Soft pink background color */
-  background-image: url('/src/components/assets/images/generalBG.gif'); /* Path to your background image */
+  background-color: #fff8fcfb; /* Soft pink background color */
   background-size: cover; /* Ensure the background image covers the entire area */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
@@ -38,7 +37,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(4, 255, 16); /* Change this if needed */
+  color: rgba(38, 6, 114, 0.39); /* Change this if needed */
 }
 
 .App-link {

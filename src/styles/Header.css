@@ -1,18 +1,19 @@
 .header {
   background-color: #2a8ec9; /* Background color of the header */
-  background-image: url('../components/assets/images/bannerCv.gif'); /* Path to your background image */
+  background-image: url('../components/assets/images/bannerPink.gif'); /* Path to your background image */
   background-size: cover; /* Cover the entire header area */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent repeating the image */
   padding: 0; /* Remove padding for the header */
   margin: 0; /* Remove margin */
-  box-shadow: 0 4px 8px rgb(12, 255, 12); /* Optional shadow effect */
   width: 100%; /* Ensure the header spans full width */
-  height: 250px; /* Adjust height as needed */
+  height: 300px; /* Adjust height as needed */
   display: flex;
   flex-direction: column;
   justify-content: flex-end; /* Align items to the bottom */
 }
+
+
 
 .main-navbar {
   background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
@@ -32,5 +33,5 @@
 }
 
 .main-navbar a:hover {
-  color: rgb(12, 255, 12); /* Adjust the hover color as needed */
+  color: rgba(53, 1, 58, 0.397); /* Adjust the hover color as needed */
 }

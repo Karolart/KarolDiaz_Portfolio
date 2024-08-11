@@ -7,7 +7,6 @@ import gamejam from '../components/assets/images/gamejam.gif';
 import cortana from '../components/assets/images/cortana.png';
 import corazonllanero from '../components/assets/images/corazonllanero.png';
 import asha2 from '../components/assets/images/ashas2.gif';
-import animalvideo from '../components/assets/videos/AnimalSoul.mp4';
 import clickSound from './assets/sounds/tap.mp3'; // Import your click sound
 
 function playClickSound() {
@@ -70,25 +69,6 @@ function Work() {
                 <p>This project allowed me to learn and implement FX effects, as well as build character animations. Additionally, I worked on integrating sound effects and optimizing the game's performance.</p>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="video-section">
-          <div className="video-panel">
-            <video controls>
-              <source src={animalvideo} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div className="description-panel">
-            <h3>AnimalSoul (Petcare Guide)</h3>
-            <p>
-              Animal Soul(PetCAreGuide): A Tribute to Billy
-              <br />
-              I’ve always believed in sharing my journey from the very beginning, and this video is a part of that. It’s a tribute to my dog Billy, who sadly passed away due to parvovirus. His memory has inspired much of my work and has been a driving force behind my career.
-              <br />
-              This project, while still in progress, reflects the early stages of my development. Completing it is a promise I intend to keep, honoring Billy's memory and the inspiration he provided.
-            </p>
           </div>
         </div>
         </div>

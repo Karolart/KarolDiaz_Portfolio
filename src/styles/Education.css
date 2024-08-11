@@ -13,10 +13,10 @@
     justify-content: space-between; /* Ensure space between text and image */
     align-items: center; /* Align items vertically */
     gap: 10px; /* Reduced space between text and image */
-    background-color: #00000013; /* Background color for the panel */
+  
     padding: 20px; /* Padding inside the panel */
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(118, 255, 55, 0.966); /* Shadow effect */
+    box-shadow: 0 4px 8px rgba(31, 0, 61, 0.267); /* Shadow effect */
   }
   
   .education-text {
