@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import '../styles/About.css';
-import profileImage from './assets/images/KarolDiaz_Cartoon.jpg'; // Adjust the import path
+import profileImage from './assets/images/profilePic.png'; // Adjust the import path
 import clickSound from './assets/sounds/tap.mp3'; // Import your click sound for the link
 import profileClickSound from './assets/sounds/welcome.m4a'; // Import your click sound for the profile picture
 import soundIcon from './assets/images/resume.png'; // Import your sound icon image

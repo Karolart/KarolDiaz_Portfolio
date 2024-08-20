@@ -48,7 +48,7 @@ function Work() {
               </a>
               <div className="videogame-description">
                 <h4>Knights Redemption</h4>
-                <p>For this project, I contributed as an FX Artist, creating special effects and animations to bring the game’s combat sequences to life. I also assisted with programming tasks.</p>
+                <p>I designed and built the user interface (UI) for this project, focusing on creating a smooth, engaging experience. I also contributed to sound effects to enhance the game.</p>
               </div>
             </div>
             <div className="videogame-item">
