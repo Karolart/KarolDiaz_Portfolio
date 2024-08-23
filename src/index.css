@@ -1,42 +1,50 @@
+/* Global body styles */
 body {
-  font-family: 'Press Start 2P', cursive;
-  background-color: #000000;
-  color: #013350;
+  font-family: 'Press Start 2P', cursive; /* Retro font */
+  background-color: #b2dfeb; /* Black background */
+  color: #050316; /* Dark blue text color */
   margin: 0;
   padding: 0;
 }
 
+/* Container for centering content */
 .container {
   width: 80%;
   margin: 0 auto;
   max-width: 1200px;
 }
 
+/* Header styles */
 header {
-  background-color: #15ff00;
+  background-color: #e5e2fc; /* Deep blue background */
   padding: 20px 0;
   text-align: center;
 }
 
+/* Banner image styles */
 header .banner img {
   width: 100%;
   max-width: 1000px;
+  height: auto; /* Maintain aspect ratio */
 }
 
+/* Navigation bar styles */
 .navbar {
   margin-top: 20px;
+  text-align: center; /* Center navigation links */
 }
 
 .navbar a {
-  color: #52ff02;
-  text-decoration: none;
-  padding: 10px 20px;
+  color: #a5dfe9; /* Neon green text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Adjust padding for a cleaner look */
   display: inline-block;
+  transition: background-color 0.3s ease; /* Smooth background color change */
 }
 
 .navbar a:hover {
-  background-color: #43fd1d;
-  transition: 0.3s;
+  background-color: rgba(8, 8, 8, 0.24); /* Subtle background color change on hover */
+  border-radius: 5px; /* Optional: Rounded corners on hover */
 }
 
 /* Add other global styles as needed */

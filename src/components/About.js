@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import '../styles/About.css';
-import profileImage from './assets/images/Portfolio_Profilepic.png'; // Adjust the import path
+import profileImage from './assets/images/profilePic.png'; // Adjust the import path
 import clickSound from './assets/sounds/tap.mp3'; // Import your click sound for the link
 import profileClickSound from './assets/sounds/welcome.m4a'; // Import your click sound for the profile picture
 import soundIcon from './assets/images/resume.png'; // Import your sound icon image
@@ -28,15 +28,18 @@ function About() {
           <img 
             src={profileImage} 
             alt="Karol Díaz" 
-            onClick={playProfileSound} // Add the onClick event to the image
+            onClick={playProfileSound} 
           />
-          <img 
-            src={soundIcon} 
-            alt="Sound Icon" 
-            className="sound-icon" 
-            onClick={playProfileSound} // Add the onClick event to the sound icon
-          />
+          <div className="sound-icon-container">
+            <img 
+              src={soundIcon} 
+              alt="Sound Icon" 
+              className="sound-icon" 
+              onClick={playProfileSound} 
+            />
+          </div>
         </div>
+
         <div className="about-text">
           <h3>
             <a
