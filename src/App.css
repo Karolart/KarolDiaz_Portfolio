@@ -3,12 +3,13 @@
 
 /* Apply the retro font and pink background color */
 body {
-  background-color: #14000cfb; /* Soft pink background color */
+  background-color: #18192bfb; /* Soft pink background color */
   background-size: cover; /* Ensure the background image covers the entire area */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   margin: 0;
   font-family: '8-bit Wonde', cursive; /* Retro font */
+  font-size: calc(10px + 2vmin);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
