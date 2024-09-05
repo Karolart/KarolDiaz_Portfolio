@@ -1,36 +1,82 @@
+/* General section styling */
 .section {
-    padding: 20px;
-  }
-  
-  .education-panel {
-    display: flex;
-    align-items: center; /* Center content vertically */
-    justify-content: center; /* Center content horizontally if desired */
-  }
-  
-  .education-content {
-    display: flex;
-    justify-content: space-between; /* Ensure space between text and image */
-    align-items: center; /* Align items vertically */
-    gap: 10px; /* Reduced space between text and image */
-  
-    padding: 20px; /* Padding inside the panel */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(31, 0, 61, 0.267); /* Shadow effect */
-  }
-  
-  .education-text {
-    flex: 2; /* Allocate more space to text */
-    margin-right: 20px; /* Margin to separate from the image */
-  }
-  
-  .education-image {
-    flex: 1; /* Image takes up available space */
-  }
-  
-  .education-image img {
-    max-width: 100%; /* Adjust to fit within the container */
-    height: auto;
-    display: block; /* Ensure the image does not overflow */
-  }
-  
+  padding: 10px;  /* Reduced padding for the section */
+}
+
+.education-panel {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.education-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;  /* Space between the text and image */
+  padding: 10px;  /* Smaller padding inside the panel */
+  max-width: 600px;  /* Max width to make the panel more compact */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);  /* Softer shadow effect */
+  border-radius: 6px;  /* Rounded corners */
+}
+
+.education-text {
+  font-size: 1.5em;  /* Smaller font size */
+  flex: 2;  /* More space for text */
+  margin-right: 15px;
+}
+
+.education-image img {
+  max-width: 200px;  /* Smaller image size */
+  height: auto;  /* Maintain aspect ratio */
+  border-radius: 5px;  /* Slightly rounded image */
+}
+
+
+.section {
+  padding: 20px;
+  background-color: rgb(190, 162, 189); /* Subtle pink background */
+}
+
+/* Panel styling */
+.panel {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Grid layout for technologies */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 20px;
+}
+
+/* Individual technology item styling */
+.tech-item {
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #28062977; /* Background for each item */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tech-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tech-item img {
+  max-width: 100px; /* Size of the icons */
+  margin-bottom: 10px;
+}
+
+.tech-item h4 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+}
+
+.tech-item p {
+  font-size: 0.9em;
+  color: #020000;
+}

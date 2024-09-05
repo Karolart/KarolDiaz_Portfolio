@@ -43,7 +43,7 @@ function About() {
         <div className="about-text">
           <h3>
             <a
-              href="https://docs.google.com/document/d/1f5G3LnFXO541yxtvLQJnLb2bxzaeCwVx/edit?usp=sharing&ouid=108486094976956110451&rtpof=true&sd=true"
+              href="https://karoldiazcv.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               onClick={playLinkSound}

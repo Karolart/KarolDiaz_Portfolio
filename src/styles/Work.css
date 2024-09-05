@@ -34,7 +34,10 @@
 
 /* Individual game item styling */
 .videogame-item {
-  text-align: center;
+  display: flex; /* Add flexbox to align image and text horizontally */
+  align-items: center; /* Vertically center items */
+  text-align: left;
+  gap: 15px; /* Space between image and text */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -44,11 +47,10 @@
 }
 
 .videogame-item img {
-  width: 100%; /* Full width image */
-  max-width: 300px; /* Set maximum width to control size */
+  width: 150px; /* Fixed width for the image */
   height: auto;
-  margin-bottom: 10px;
-  transition: transform 0.3s ease; /* Smooth image hover effect */
+  margin-bottom: 0; /* No margin below the image */
+  transition: transform 0.3s ease;
 }
 
 .videogame-item img:hover {

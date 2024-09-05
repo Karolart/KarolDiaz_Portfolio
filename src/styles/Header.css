@@ -1,11 +1,11 @@
 .header {
   background-color: #2a8ec9; /* Background color of the header */
-  background-image: url('../components/assets/images/bannerPink.gif'); /* Path to your background image */
+  background-image: url('../components/assets/images/Banner_purple.gif'); /* Path to your background image */
   background-size: cover; /* Cover the entire header area */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent repeating the image */
   padding: 0; /* Remove padding for the header */
-  margin: 0; /* Remove margin */
+  margin: 2; /* Remove margin */
   width: 100%; /* Ensure the header spans full width */
   height: 300px; /* Adjust height as needed */
   display: flex;

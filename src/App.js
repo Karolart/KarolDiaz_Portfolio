@@ -15,9 +15,9 @@ function App() {
       <Header />
       <div className="container">
         <About />
-        <Education />
+        <Education/>
+        <Work/>
         <Illustration/>
-        <Work />
         <Drawings/>
         <Contact />
       </div>

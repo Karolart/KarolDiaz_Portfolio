@@ -16,7 +16,7 @@ body {
 
 /* Header styles */
 header {
-  background-color: #e5e2fc; /* Deep blue background */
+  background-color: #9e96df; /* Deep blue background */
   padding: 20px 0;
   text-align: center;
 }
@@ -35,7 +35,7 @@ header .banner img {
 }
 
 .navbar a {
-  color: #a5dfe9; /* Neon green text color */
+  color: #a0dae4; /* Neon green text color */
   text-decoration: none; /* Remove underline */
   padding: 10px 15px; /* Adjust padding for a cleaner look */
   display: inline-block;
@@ -43,7 +43,7 @@ header .banner img {
 }
 
 .navbar a:hover {
-  background-color: rgba(8, 8, 8, 0.24); /* Subtle background color change on hover */
+  background-color: rgb(95, 166, 207); /* Subtle background color change on hover */
   border-radius: 5px; /* Optional: Rounded corners on hover */
 }
 

@@ -8,6 +8,7 @@ import cortana from '../components/assets/images/cortana.png';
 import corazonllanero from '../components/assets/images/corazonllanero.png';
 import asha2 from '../components/assets/images/ashas2.gif';
 import clickSound from './assets/sounds/tap.mp3'; // Import your click sound
+import Amazonas from './assets/images/amazonas Odyssey.png'
 
 function playClickSound() {
   const audio = new Audio(clickSound);
@@ -22,17 +23,29 @@ function Work() {
       <div className="work-content">
         <div className="videogames">
           <h3>My Videogames</h3>
-          <p>UI Designer & UI Development, FX Artist, Sound Designer, programmer</p>
+          <p>UI Designer & UI Development,programmer</p>
+          <div className="videogame-item">
+            <a href="https://acchan23.itch.io/amazonas-odyssey-surviving-the-jungle" target="_blank" rel="noopener noreferrer" onClick={playClickSound}>
+              <img src={Amazonas} alt="AmazonasOddyssey"/>
+            </a>
+          <div className="videogame-description">
+              <h3>Amazonas Oddyssey</h3>
+              <p>I created the visual concept and design for the main image and the
+                 start screen of the game, in addition to designing and programming
+                 the user interface (UI), ensuring a smooth and intuitive experience 
+                 for the players. I also designed the inventory system and contributed
+                 to its programming."</p>
+            </div>
+            </div>
           <div className="videogame-item">
             <a href="https://nosmow.itch.io/ashasascent" target="_blank" rel="noopener noreferrer" onClick={playClickSound}>
               <img src={asha2} alt="Game 1" />
             </a>
             <div className="videogame-description">
-              <h4>Asha's Ascent (GameJamVersion)</h4>
+              <h3>Asha's Ascent (GameJamVersion)</h3>
               <p>For this project, I worked as an FX Artist, designing special effects and animations to enhance the combat sequences. Additionally, I supported programming tasks, focusing primarily on UI development.</p>
             </div>
           </div>
-          <div className="videogame-thumbnails">
             <div className="videogame-item">
               <a href="https://germanmunoz.itch.io/ashasascent" target="_blank" rel="noopener noreferrer" onClick={playClickSound}>
                 <img src={ashasascent} alt="Game 1" />
@@ -72,7 +85,6 @@ function Work() {
           </div>
         </div>
         </div>
-      </div>
     </section>
   );
 }

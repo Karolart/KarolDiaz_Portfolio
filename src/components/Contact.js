@@ -22,24 +22,24 @@ function Contact() {
     <section id="contact" className="section">
       <h2>Contact</h2>
       <div className="contact-icons">
-        <a href="https://karolart90.itch.io/" target="_blank" rel="noopener noreferrer" onClick={playSound}>
-          <img src={itchioIcon} alt="itchio" />
-        </a>
-        <a href="https://discord.com/login" target="_blank" rel="noopener noreferrer" onClick={playSound}>
-          <img src={discordIcon} alt="Discord" />
-        </a>
-        <a href="https://github.com/Karolart" target="_blank" rel="noopener noreferrer" onClick={playSound}>
-          <img src={githubIcon} alt="GitHub" />
-        </a>
-        <a href="https://www.linkedin.com/in/karolart/" target="_blank" rel="noopener noreferrer" onClick={playSound}>
-          <img src={linkedinIcon} alt="LinkedIn" />
-        </a>
-        <a href="https://wa.me/573014516422" target="_blank" rel="noopener noreferrer" onClick={playSound}>
+      <a href="https://wa.me/573014516422" target="_blank" rel="noopener noreferrer" onClick={playSound}>
           <img src={telIcon} alt="Phone" />
         </a>
-        <a href="mailto:diazariaskarolvanessa@gmail.com" onClick={playSound}>
+      <a href="mailto:diazariaskarolvanessa@gmail.com" onClick={playSound}>
           <img src={emailIcon} alt="Email" />
-        </a>
+      </a>
+      <a href="https://discord.com/login" target="_blank" rel="noopener noreferrer" onClick={playSound}>
+          <img src={discordIcon} alt="Discord" />
+      </a>
+      <a href="https://www.linkedin.com/in/karolart/" target="_blank" rel="noopener noreferrer" onClick={playSound}>
+          <img src={linkedinIcon} alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/Karolart" target="_blank" rel="noopener noreferrer" onClick={playSound}>
+          <img src={githubIcon} alt="GitHub" />
+      </a>
+      <a href="https://karolart90.itch.io/" target="_blank" rel="noopener noreferrer" onClick={playSound}>
+          <img src={itchioIcon} alt="itchio" />
+      </a>
       </div>
       <audio ref={audioRef} src={clickSound} preload="auto"></audio>
     </section>
