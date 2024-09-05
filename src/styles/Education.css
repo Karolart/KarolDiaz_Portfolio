@@ -1,6 +1,7 @@
 /* General section styling */
 .section {
-  padding: 10px;  /* Reduced padding for the section */
+  padding: 10px; /* Reduced padding for the section */
+  background-color: rgb(190, 162, 189); /* Subtle pink background */
 }
 
 .education-panel {
@@ -13,29 +14,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 15px;  /* Space between the text and image */
-  padding: 10px;  /* Smaller padding inside the panel */
-  max-width: 600px;  /* Max width to make the panel more compact */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);  /* Softer shadow effect */
-  border-radius: 6px;  /* Rounded corners */
+  gap: 15px; /* Space between the text and image */
+  padding: 10px; /* Smaller padding inside the panel */
+  max-width: 600px; /* Max width to make the panel more compact */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Softer shadow effect */
+  border-radius: 6px; /* Rounded corners */
 }
 
 .education-text {
-  font-size: 1.5em;  /* Smaller font size */
-  flex: 2;  /* More space for text */
+  font-size: 1em; /* Reduced font size */
+  line-height: 1.5; /* Proper line spacing */
+  flex: 2; /* More space for text */
   margin-right: 15px;
 }
 
 .education-image img {
-  max-width: 200px;  /* Smaller image size */
-  height: auto;  /* Maintain aspect ratio */
-  border-radius: 5px;  /* Slightly rounded image */
-}
-
-
-.section {
-  padding: 20px;
-  background-color: rgb(190, 162, 189); /* Subtle pink background */
+  max-width: 150px; /* Adjusted smaller image size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Slightly rounded image */
 }
 
 /* Panel styling */
@@ -73,7 +69,7 @@
 
 .tech-item h4 {
   margin: 10px 0 5px;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .tech-item p {
